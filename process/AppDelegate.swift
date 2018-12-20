@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  process
+//  soft
 //
-//  Created by tuhadaiki on 2018/12/20.
-//  Copyright © 2018 tuhadaiki. All rights reserved.
+//  Created by ryo shimabukuro on 2018/12/15.
+//  Copyright © 2018 ryo shimabukuro. All rights reserved.
 //
 
 import UIKit
-
+import UserNotifications
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .badge, .sound]) {(granted, error) in
+            if granted {
+                print("許可する")
+            } else {
+                print("許可しない")
+            }
+        }
         return true
     }
 

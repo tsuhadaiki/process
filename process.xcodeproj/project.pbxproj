@@ -14,6 +14,7 @@
 		67A9E02321CA98F00019CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A9E02121CA98F00019CECC /* LaunchScreen.storyboard */; };
 		67A9E02E21CA98F00019CECC /* processTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A9E02D21CA98F00019CECC /* processTests.swift */; };
 		67A9E03921CA98F00019CECC /* processUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A9E03821CA98F00019CECC /* processUITests.swift */; };
+		67A9E04721CA9CE80019CECC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A9E04621CA9CE80019CECC /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		67A9E03421CA98F00019CECC /* processUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = processUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A9E03821CA98F00019CECC /* processUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processUITests.swift; sourceTree = "<group>"; };
 		67A9E03A21CA98F00019CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A9E04621CA9CE80019CECC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				67A9E01821CA98EA0019CECC /* AppDelegate.swift */,
 				67A9E01A21CA98EA0019CECC /* ViewController.swift */,
+				67A9E04621CA9CE80019CECC /* ViewController2.swift */,
 				67A9E01C21CA98ED0019CECC /* Main.storyboard */,
 				67A9E01F21CA98F00019CECC /* Assets.xcassets */,
 				67A9E02121CA98F00019CECC /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				67A9E01B21CA98EA0019CECC /* ViewController.swift in Sources */,
 				67A9E01921CA98EA0019CECC /* AppDelegate.swift in Sources */,
+				67A9E04721CA9CE80019CECC /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
